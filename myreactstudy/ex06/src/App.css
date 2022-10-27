@@ -1,0 +1,9 @@
+#container, #container>div div{   /* # : id, . : class, solid : 고정값 */
+  border: 5px solid mediumseagreen;
+  margin: 10px;
+}
+
+#grid{
+  display: grid;
+  grid-template-columns : 1fr 1fr;
+}

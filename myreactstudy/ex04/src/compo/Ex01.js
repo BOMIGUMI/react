@@ -16,7 +16,7 @@ function Ex01(){
         
         // 10개의 영화데이터 배열 -> result.data.boxOfficeResult.dailyBoxOfficeList
         
-        setMovieArray(result.data.boxOfficeResult.dailyBoxOfficeList)
+        setMovieArray(result.data.boxOfficeResult.dailyBoxOfficeList)       // 영화 배열을 상태값으로 저장
       
     }
 
