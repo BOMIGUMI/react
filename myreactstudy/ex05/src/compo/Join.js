@@ -45,7 +45,7 @@ function Join() {
         // ?앞은 주소값, ?뒤는 보낼 데이터, 뒤의 데이터들이 각각의 쿼리스트링으로 넘어감
         // ->  useSearchParams를 통해 쿼리스트링데이터들을 꺼내 올 수 있음
     /* } */
-
+    
     // form : 주소값으로 이동하면서 form 태그 안에 있는 내용도 같이 전달!
     //          form태그 안의 정보들도 같이 넘어감
     const dispatch = useDispatch();
